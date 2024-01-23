@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter');
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Bitter;
+  overflow-y: scroll;
+}
+
+.fixed-navigation {
+  background-color: #fff4f2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.white-block {
+  height: 50vh;
+  background-color: white;
+}
+
+.coral-block {
+  height: 80vh;
+  background-color: #E9BCBA;
+  color: white;
+}
+
+.coral-background {
+  background-color: #E9BCBA;
+  min-height: 100vh;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  align-items: center;
+  font-size: larger;
+}
+
+/* to adjust the white box around the form */
+form {
+  background-color: white;
+  margin-top: 200px;
+  padding: 60px;
+}
+
+/* Additional styles for the text input fields */
+.form-container input[type="text"],
+.form-container input[type="email"] {
+  border: none;
+  border-bottom: 1px solid #000; 
+  padding: 5px; 
+  outline: none; 
+  background-color: transparent;
+  margin-bottom: 10px; 
+}
+
+
+/* to do stuff with the list*/
+nav ul {
+  /*list style type is just to get rid of the bullets on the list*/
+  list-style-type: none;
+  margin: 40px;
+  text-align: right;
+  overflow: hidden;
+}
+
+/* to do stuff with items in the navigation */
+nav ul li {
+  display: inline-block;
+  margin: 0 20px;
+  overflow: hidden;
+}
+
+/* to do stuff with hyperlinks in the navigation menu */
+nav ul li a {
+  text-decoration: none;
+  font-size: large;
+  color: black;
+}
+
+/* Change the link color to pink on hover */
+li a:hover {
+  background-color: #E9BCBA;
+}
+
+/* @media screen and (max-width: 600px) {
+  nav ul {
+    text-align: center;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+} */
+
+.projects-block {
+  margin-top: 180px;
+}
+
+.proj-block {
+  background-color: #E9BCBA;
+  height: 20vh;
+  width: 60vh;
+  margin: auto;
+  padding: 5%;
+  margin-bottom: 60px;
+  z-index: 1;
+}
+
+.picture-block {
+  background-color: white;
+  height: 21vh;
+  width: 21vh;
+  float: right;
+  z-index: 2;
+}
+
+.picture-block img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  max-height: 100%;
+
+}
